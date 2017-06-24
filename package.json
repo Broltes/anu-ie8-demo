@@ -1,0 +1,49 @@
+{
+  "name": "anu-ie8-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --config build/webpack.dev.conf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Broltes/anu-ie8-demo.git"
+  },
+  "keywords": [
+    "anu",
+    "ie8"
+  ],
+  "author": "Broltes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Broltes/anu-ie8-demo/issues"
+  },
+  "homepage": "https://github.com/Broltes/anu-ie8-demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "es3ify-webpack-plugin": "0.0.1",
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.5.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "browserslist": [
+    "ie >= 8"
+  ],
+  "dependencies": {
+    "anujs": "^1.0.2"
+  }
+}
